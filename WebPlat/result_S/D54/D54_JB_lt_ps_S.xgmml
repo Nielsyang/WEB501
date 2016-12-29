@@ -1,0 +1,369 @@
+ <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <graph label="D54_JB_lt_ps_S.txt"xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cy="http://www.cytoscape.org" xmlns="http://www.cs.rpi.edu/XGMML"  directed="1">
+   <att name="documentVersion" value="1.1"/>
+   <att name="networkMetadata">
+     <rdf:RDF>
+       <rdf:Description rdf:about="http://www.cytoscape.org/">
+         <dc:type>Protein-Protein Interaction</dc:type>
+         <dc:description>N/A</dc:description>
+         <dc:identifier>N/A</dc:identifier>
+         <dc:date>2014/10/29  17:16:04</dc:date>
+         <dc:title>D54_JB_lt_ps_S.txt</dc:title>
+         <dc:source>http://www.cytoscape.org/</dc:source>
+         <dc:format>Cytoscape-XGMML</dc:format>
+       </rdf:Description>
+     </rdf:RDF>
+   </att>
+   <att type="string" name="backgroundColor" value="#ccccff"/>
+   <att type="real" name="GRAPH_VIEW_ZOOM" value="0.215892333172212"/>
+   <att type="real" name="GRAPH_VIEW_CENTER_X" value="64"/>
+   <att type="real" name="GRAPH_VIEW_CENTER_Y" value="64"/>
+   <att type="boolean" name="NODE_SIZE_LOCKED" value="true"/>
+   <att type="string" name="__layoutAlgorithm" value="degree-circle"  cy:hidden="true"/>
+   <node label="&#x809d;&#x708e;"  id="-57">
+     <att type="string" name="Column 1"  value="&#x809d;&#x708e;"/>
+     <att type="integer" name="Column 2"  value="17718"/>
+     <att type="integer" name="Degree"  value="5"/>
+     <att type="string" name="canonicalName"  value="&#x809d;&#x708e;"/>
+     <att type="list" name="cytoscape.alias.list" >
+       <att type="string" name="cytoscape.alias.list"  value="&#x809d;&#x708e;"/>
+     </att>
+     <att type="string" name="node.fillColor" value="255,255,255"/>
+     <att type="string" name="node.font"   value="Arial Unicode MS,plain,12"/>
+     <att type="string" name="node.fontSize"  value="=${node.size}/2"  cy:equation="true"/>
+     <att type="string" name="node.size"  value="=(5+log(${Column 2})*10)+(5+log(${Degree})*10)"  cy:equation="true"/>
+     <graphics type="ELLIPSE"  h="59.4738470168474"  w="59.4738470168474" x="64"  y="64" fill="#ffffff"  width="1" outline="#666666" cy:nodeTransparency="1.0" cy:nodeLabelFont="Arial Unicode MS-0-30" cy:nodeLabel="&#x809d;&#x708e;"  cy:borderLineType="solid"/>
+   </node>
+   <node label="&#x809d;&#x786c;&#x5316;"  id="-56">
+     <att type="string" name="Column 1"  value="&#x809d;&#x786c;&#x5316;"/>
+     <att type="integer" name="Column 2"  value="53888"/>
+     <att type="integer" name="Degree"  value="13"/>
+     <att type="string" name="canonicalName"  value="&#x809d;&#x786c;&#x5316;"/>
+     <att type="list" name="cytoscape.alias.list" >
+       <att type="string" name="cytoscape.alias.list"  value="&#x809d;&#x786c;&#x5316;"/>
+     </att>
+     <att type="string" name="node.fillColor" value="255,255,255"/>
+     <att type="string" name="node.font"   value="Arial Unicode MS,plain,12"/>
+     <att type="string" name="node.fontSize"  value="=${node.size}/2"  cy:equation="true"/>
+     <att type="string" name="node.size"  value="=(5+log(${Column 2})*10)+(5+log(${Degree})*10)"  cy:equation="true"/>
+     <graphics type="ELLIPSE"  h="68.4543541779037"  w="68.4543541779037" x="64"  y="64" fill="#ffffff"  width="1" outline="#666666" cy:nodeTransparency="1.0" cy:nodeLabelFont="Arial Unicode MS-0-34" cy:nodeLabel="&#x809d;&#x786c;&#x5316;"  cy:borderLineType="solid"/>
+   </node>
+   <node label="&#x809d;&#x7ea4;&#x7ef4;&#x5316;"  id="-55">
+     <att type="string" name="Column 1"  value="&#x809d;&#x7ea4;&#x7ef4;&#x5316;"/>
+     <att type="integer" name="Column 2"  value="10837"/>
+     <att type="integer" name="Degree"  value="3"/>
+     <att type="string" name="canonicalName"  value="&#x809d;&#x7ea4;&#x7ef4;&#x5316;"/>
+     <att type="list" name="cytoscape.alias.list" >
+       <att type="string" name="cytoscape.alias.list"  value="&#x809d;&#x7ea4;&#x7ef4;&#x5316;"/>
+     </att>
+     <att type="string" name="node.fillColor" value="255,255,255"/>
+     <att type="string" name="node.font"   value="Arial Unicode MS,plain,12"/>
+     <att type="string" name="node.fontSize"  value="=${node.size}/2"  cy:equation="true"/>
+     <att type="string" name="node.size"  value="=(5+log(${Column 2})*10)+(5+log(${Degree})*10)"  cy:equation="true"/>
+     <graphics type="ELLIPSE"  h="55.1203032808741"  w="55.1203032808741" x="64"  y="64" fill="#ffffff"  width="1" outline="#666666" cy:nodeTransparency="1.0" cy:nodeLabelFont="Arial Unicode MS-0-28" cy:nodeLabel="&#x809d;&#x7ea4;&#x7ef4;&#x5316;"  cy:borderLineType="solid"/>
+   </node>
+   <node label="&#x809d;&#x764c;"  id="-54">
+     <att type="string" name="Column 1"  value="&#x809d;&#x764c;"/>
+     <att type="integer" name="Column 2"  value="6785"/>
+     <att type="integer" name="Degree"  value="4"/>
+     <att type="string" name="canonicalName"  value="&#x809d;&#x764c;"/>
+     <att type="list" name="cytoscape.alias.list" >
+       <att type="string" name="cytoscape.alias.list"  value="&#x809d;&#x764c;"/>
+     </att>
+     <att type="string" name="node.fillColor" value="255,255,255"/>
+     <att type="string" name="node.font"   value="Arial Unicode MS,plain,12"/>
+     <att type="string" name="node.fontSize"  value="=${node.size}/2"  cy:equation="true"/>
+     <att type="string" name="node.size"  value="=(5+log(${Column 2})*10)+(5+log(${Degree})*10)"  cy:equation="true"/>
+     <graphics type="ELLIPSE"  h="54.3360984332372"  w="54.3360984332372" x="64"  y="64" fill="#ffffff"  width="1" outline="#666666" cy:nodeTransparency="1.0" cy:nodeLabelFont="Arial Unicode MS-0-28" cy:nodeLabel="&#x809d;&#x764c;"  cy:borderLineType="solid"/>
+   </node>
+   <node label="&#x4e59;&#x578b;&#x809d;&#x708e;"  id="-53">
+     <att type="string" name="Column 1"  value="&#x4e59;&#x578b;&#x809d;&#x708e;"/>
+     <att type="integer" name="Column 2"  value="6382"/>
+     <att type="integer" name="Degree"  value="4"/>
+     <att type="string" name="canonicalName"  value="&#x4e59;&#x578b;&#x809d;&#x708e;"/>
+     <att type="list" name="cytoscape.alias.list" >
+       <att type="string" name="cytoscape.alias.list"  value="&#x4e59;&#x578b;&#x809d;&#x708e;"/>
+     </att>
+     <att type="string" name="node.fillColor" value="255,255,255"/>
+     <att type="string" name="node.font"   value="Arial Unicode MS,plain,12"/>
+     <att type="string" name="node.fontSize"  value="=${node.size}/2"  cy:equation="true"/>
+     <att type="string" name="node.size"  value="=(5+log(${Column 2})*10)+(5+log(${Degree})*10)"  cy:equation="true"/>
+     <graphics type="ELLIPSE"  h="54.0701679118545"  w="54.0701679118545" x="64"  y="64" fill="#ffffff"  width="1" outline="#666666" cy:nodeTransparency="1.0" cy:nodeLabelFont="Arial Unicode MS-0-28" cy:nodeLabel="&#x4e59;&#x578b;&#x809d;&#x708e;"  cy:borderLineType="solid"/>
+   </node>
+   <node label="&#x809d;&#x80bf;&#x7624;"  id="-52">
+     <att type="string" name="Column 1"  value="&#x809d;&#x80bf;&#x7624;"/>
+     <att type="integer" name="Column 2"  value="5441"/>
+     <att type="integer" name="Degree"  value="5"/>
+     <att type="string" name="canonicalName"  value="&#x809d;&#x80bf;&#x7624;"/>
+     <att type="list" name="cytoscape.alias.list" >
+       <att type="string" name="cytoscape.alias.list"  value="&#x809d;&#x80bf;&#x7624;"/>
+     </att>
+     <att type="string" name="node.fillColor" value="255,255,255"/>
+     <att type="string" name="node.font"   value="Arial Unicode MS,plain,12"/>
+     <att type="string" name="node.fontSize"  value="=${node.size}/2"  cy:equation="true"/>
+     <att type="string" name="node.size"  value="=(5+log(${Column 2})*10)+(5+log(${Degree})*10)"  cy:equation="true"/>
+     <graphics type="ELLIPSE"  h="54.3464873024192"  w="54.3464873024192" x="64"  y="64" fill="#ffffff"  width="1" outline="#666666" cy:nodeTransparency="1.0" cy:nodeLabelFont="Arial Unicode MS-0-28" cy:nodeLabel="&#x809d;&#x80bf;&#x7624;"  cy:borderLineType="solid"/>
+   </node>
+   <node label="&#x9ad8;&#x8840;&#x538b;"  id="-51">
+     <att type="string" name="Column 1"  value="&#x9ad8;&#x8840;&#x538b;"/>
+     <att type="integer" name="Column 2"  value="4454"/>
+     <att type="integer" name="Degree"  value="3"/>
+     <att type="string" name="canonicalName"  value="&#x9ad8;&#x8840;&#x538b;"/>
+     <att type="list" name="cytoscape.alias.list" >
+       <att type="string" name="cytoscape.alias.list"  value="&#x9ad8;&#x8840;&#x538b;"/>
+     </att>
+     <att type="string" name="node.fillColor" value="255,255,255"/>
+     <att type="string" name="node.font"   value="Arial Unicode MS,plain,12"/>
+     <att type="string" name="node.fontSize"  value="=${node.size}/2"  cy:equation="true"/>
+     <att type="string" name="node.size"  value="=(5+log(${Column 2})*10)+(5+log(${Degree})*10)"  cy:equation="true"/>
+     <graphics type="ELLIPSE"  h="51.2587146741768"  w="51.2587146741768" x="64"  y="64" fill="#ffffff"  width="1" outline="#666666" cy:nodeTransparency="1.0" cy:nodeLabelFont="Arial Unicode MS-0-26" cy:nodeLabel="&#x9ad8;&#x8840;&#x538b;"  cy:borderLineType="solid"/>
+   </node>
+   <node label="&#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;"  id="-50">
+     <att type="string" name="Column 1"  value="&#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;"/>
+     <att type="integer" name="Column 2"  value="3082"/>
+     <att type="integer" name="Degree"  value="3"/>
+     <att type="string" name="canonicalName"  value="&#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;"/>
+     <att type="list" name="cytoscape.alias.list" >
+       <att type="string" name="cytoscape.alias.list"  value="&#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;"/>
+     </att>
+     <att type="string" name="node.fillColor" value="255,255,255"/>
+     <att type="string" name="node.font"   value="Arial Unicode MS,plain,12"/>
+     <att type="string" name="node.fontSize"  value="=${node.size}/2"  cy:equation="true"/>
+     <att type="string" name="node.size"  value="=(5+log(${Column 2})*10)+(5+log(${Degree})*10)"  cy:equation="true"/>
+     <graphics type="ELLIPSE"  h="49.6595388910206"  w="49.6595388910206" x="64"  y="64" fill="#ffffff"  width="1" outline="#666666" cy:nodeTransparency="1.0" cy:nodeLabelFont="Arial Unicode MS-0-25" cy:nodeLabel="&#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;"  cy:borderLineType="solid"/>
+   </node>
+   <node label="&#x4e0a;&#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;"  id="-49">
+     <att type="string" name="Column 1"  value="&#x4e0a;&#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;"/>
+     <att type="integer" name="Column 2"  value="2593"/>
+     <att type="integer" name="Degree"  value="2"/>
+     <att type="string" name="canonicalName"  value="&#x4e0a;&#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;"/>
+     <att type="list" name="cytoscape.alias.list" >
+       <att type="string" name="cytoscape.alias.list"  value="&#x4e0a;&#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;"/>
+     </att>
+     <att type="string" name="node.fillColor" value="255,255,255"/>
+     <att type="string" name="node.font"   value="Arial Unicode MS,plain,12"/>
+     <att type="string" name="node.fontSize"  value="=${node.size}/2"  cy:equation="true"/>
+     <att type="string" name="node.size"  value="=(5+log(${Column 2})*10)+(5+log(${Degree})*10)"  cy:equation="true"/>
+     <graphics type="ELLIPSE"  h="47.1483251243333"  w="47.1483251243333" x="64"  y="64" fill="#ffffff"  width="1" outline="#666666" cy:nodeTransparency="1.0" cy:nodeLabelFont="Arial Unicode MS-0-24" cy:nodeLabel="&#x4e0a;&#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;"  cy:borderLineType="solid"/>
+   </node>
+   <node label="&#x539f;&#x53d1;&#x6027;&#x809d;&#x764c;"  id="-48">
+     <att type="string" name="Column 1"  value="&#x539f;&#x53d1;&#x6027;&#x809d;&#x764c;"/>
+     <att type="integer" name="Column 2"  value="2056"/>
+     <att type="integer" name="Degree"  value="3"/>
+     <att type="string" name="canonicalName"  value="&#x539f;&#x53d1;&#x6027;&#x809d;&#x764c;"/>
+     <att type="list" name="cytoscape.alias.list" >
+       <att type="string" name="cytoscape.alias.list"  value="&#x539f;&#x53d1;&#x6027;&#x809d;&#x764c;"/>
+     </att>
+     <att type="string" name="node.fillColor" value="255,255,255"/>
+     <att type="string" name="node.font"   value="Arial Unicode MS,plain,12"/>
+     <att type="string" name="node.fontSize"  value="=${node.size}/2"  cy:equation="true"/>
+     <att type="string" name="node.size"  value="=(5+log(${Column 2})*10)+(5+log(${Degree})*10)"  cy:equation="true"/>
+     <graphics type="ELLIPSE"  h="47.901443650429"  w="47.901443650429" x="64"  y="64" fill="#ffffff"  width="1" outline="#666666" cy:nodeTransparency="1.0" cy:nodeLabelFont="Arial Unicode MS-0-24" cy:nodeLabel="&#x539f;&#x53d1;&#x6027;&#x809d;&#x764c;"  cy:borderLineType="solid"/>
+   </node>
+   <node label="&#x809d;&#x6027;&#x8111;&#x75c5;"  id="-47">
+     <att type="string" name="Column 1"  value="&#x809d;&#x6027;&#x8111;&#x75c5;"/>
+     <att type="integer" name="Column 2"  value="1895"/>
+     <att type="integer" name="Degree"  value="2"/>
+     <att type="string" name="canonicalName"  value="&#x809d;&#x6027;&#x8111;&#x75c5;"/>
+     <att type="list" name="cytoscape.alias.list" >
+       <att type="string" name="cytoscape.alias.list"  value="&#x809d;&#x6027;&#x8111;&#x75c5;"/>
+     </att>
+     <att type="string" name="node.fillColor" value="255,255,255"/>
+     <att type="string" name="node.font"   value="Arial Unicode MS,plain,12"/>
+     <att type="string" name="node.fontSize"  value="=${node.size}/2"  cy:equation="true"/>
+     <att type="string" name="node.size"  value="=(5+log(${Column 2})*10)+(5+log(${Degree})*10)"  cy:equation="true"/>
+     <graphics type="ELLIPSE"  h="45.7863920996807"  w="45.7863920996807" x="64"  y="64" fill="#ffffff"  width="1" outline="#666666" cy:nodeTransparency="1.0" cy:nodeLabelFont="Arial Unicode MS-0-23" cy:nodeLabel="&#x809d;&#x6027;&#x8111;&#x75c5;"  cy:borderLineType="solid"/>
+   </node>
+   <node label="&#x7cd6;&#x5c3f;&#x75c5;"  id="-46">
+     <att type="string" name="Column 1"  value="&#x7cd6;&#x5c3f;&#x75c5;"/>
+     <att type="integer" name="Column 2"  value="1108"/>
+     <att type="integer" name="Degree"  value="1"/>
+     <att type="string" name="canonicalName"  value="&#x7cd6;&#x5c3f;&#x75c5;"/>
+     <att type="list" name="cytoscape.alias.list" >
+       <att type="string" name="cytoscape.alias.list"  value="&#x7cd6;&#x5c3f;&#x75c5;"/>
+     </att>
+     <att type="string" name="node.fillColor" value="255,255,255"/>
+     <att type="string" name="node.font"   value="Arial Unicode MS,plain,12"/>
+     <att type="string" name="node.fontSize"  value="=${node.size}/2"  cy:equation="true"/>
+     <att type="string" name="node.size"  value="=(5+log(${Column 2})*10)+(5+log(${Degree})*10)"  cy:equation="true"/>
+     <graphics type="ELLIPSE"  h="40.4453976039241"  w="40.4453976039241" x="64"  y="64" fill="#ffffff"  width="1" outline="#666666" cy:nodeTransparency="1.0" cy:nodeLabelFont="Arial Unicode MS-0-20" cy:nodeLabel="&#x7cd6;&#x5c3f;&#x75c5;"  cy:borderLineType="solid"/>
+   </node>
+   <node label="&#x813e;&#x529f;&#x80fd;&#x4ea2;&#x8fdb;"  id="-45">
+     <att type="string" name="Column 1"  value="&#x813e;&#x529f;&#x80fd;&#x4ea2;&#x8fdb;"/>
+     <att type="integer" name="Column 2"  value="1012"/>
+     <att type="integer" name="Degree"  value="1"/>
+     <att type="string" name="canonicalName"  value="&#x813e;&#x529f;&#x80fd;&#x4ea2;&#x8fdb;"/>
+     <att type="list" name="cytoscape.alias.list" >
+       <att type="string" name="cytoscape.alias.list"  value="&#x813e;&#x529f;&#x80fd;&#x4ea2;&#x8fdb;"/>
+     </att>
+     <att type="string" name="node.fillColor" value="255,255,255"/>
+     <att type="string" name="node.font"   value="Arial Unicode MS,plain,12"/>
+     <att type="string" name="node.fontSize"  value="=${node.size}/2"  cy:equation="true"/>
+     <att type="string" name="node.size"  value="=(5+log(${Column 2})*10)+(5+log(${Degree})*10)"  cy:equation="true"/>
+     <graphics type="ELLIPSE"  h="40.0518051250378"  w="40.0518051250378" x="64"  y="64" fill="#ffffff"  width="1" outline="#666666" cy:nodeTransparency="1.0" cy:nodeLabelFont="Arial Unicode MS-0-20" cy:nodeLabel="&#x813e;&#x529f;&#x80fd;&#x4ea2;&#x8fdb;"  cy:borderLineType="solid"/>
+   </node>
+   <node label="&#x809d;&#x635f;&#x4f24;"  id="-44">
+     <att type="string" name="Column 1"  value="&#x809d;&#x635f;&#x4f24;"/>
+     <att type="integer" name="Column 2"  value="822"/>
+     <att type="integer" name="Degree"  value="1"/>
+     <att type="string" name="canonicalName"  value="&#x809d;&#x635f;&#x4f24;"/>
+     <att type="list" name="cytoscape.alias.list" >
+       <att type="string" name="cytoscape.alias.list"  value="&#x809d;&#x635f;&#x4f24;"/>
+     </att>
+     <att type="string" name="node.fillColor" value="255,255,255"/>
+     <att type="string" name="node.font"   value="Arial Unicode MS,plain,12"/>
+     <att type="string" name="node.fontSize"  value="=${node.size}/2"  cy:equation="true"/>
+     <att type="string" name="node.size"  value="=(5+log(${Column 2})*10)+(5+log(${Degree})*10)"  cy:equation="true"/>
+     <graphics type="ELLIPSE"  h="39.1487181754005"  w="39.1487181754005" x="64"  y="64" fill="#ffffff"  width="1" outline="#666666" cy:nodeTransparency="1.0" cy:nodeLabelFont="Arial Unicode MS-0-20" cy:nodeLabel="&#x809d;&#x635f;&#x4f24;"  cy:borderLineType="solid"/>
+   </node>
+   <edge label="&#x809d;&#x708e; (17717) &#x809d;&#x786c;&#x5316;" source="-57"  target="-56">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x708e; (17717) &#x809d;&#x786c;&#x5316;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="17717" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x7ea4;&#x7ef4;&#x5316; (10836) &#x809d;&#x786c;&#x5316;" source="-55"  target="-56">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x7ea4;&#x7ef4;&#x5316; (10836) &#x809d;&#x786c;&#x5316;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="10836" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x764c; (6784) &#x809d;&#x786c;&#x5316;" source="-54"  target="-56">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x764c; (6784) &#x809d;&#x786c;&#x5316;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="6784" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x786c;&#x5316; (6381) &#x4e59;&#x578b;&#x809d;&#x708e;" source="-56"  target="-53">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x786c;&#x5316; (6381) &#x4e59;&#x578b;&#x809d;&#x708e;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="6381" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x786c;&#x5316; (5440) &#x809d;&#x80bf;&#x7624;" source="-56"  target="-52">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x786c;&#x5316; (5440) &#x809d;&#x80bf;&#x7624;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="5440" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x764c; (4678) &#x809d;&#x80bf;&#x7624;" source="-54"  target="-52">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x764c; (4678) &#x809d;&#x80bf;&#x7624;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="4678" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x786c;&#x5316; (4453) &#x9ad8;&#x8840;&#x538b;" source="-56"  target="-51">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x786c;&#x5316; (4453) &#x9ad8;&#x8840;&#x538b;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="4453" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x7ea4;&#x7ef4;&#x5316; (4250) &#x809d;&#x708e;" source="-55"  target="-57">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x7ea4;&#x7ef4;&#x5316; (4250) &#x809d;&#x708e;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="4250" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x764c; (3789) &#x809d;&#x708e;" source="-54"  target="-57">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x764c; (3789) &#x809d;&#x708e;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="3789" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x786c;&#x5316; (3081) &#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;" source="-56"  target="-50">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x786c;&#x5316; (3081) &#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="3081" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x786c;&#x5316; (2593) &#x4e0a;&#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;" source="-56"  target="-49">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x786c;&#x5316; (2593) &#x4e0a;&#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="2593" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x708e; (2480) &#x809d;&#x80bf;&#x7624;" source="-57"  target="-52">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x708e; (2480) &#x809d;&#x80bf;&#x7624;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="2480" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x786c;&#x5316; (2056) &#x539f;&#x53d1;&#x6027;&#x809d;&#x764c;" source="-56"  target="-48">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x786c;&#x5316; (2056) &#x539f;&#x53d1;&#x6027;&#x809d;&#x764c;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="2056" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x7ea4;&#x7ef4;&#x5316; (2014) &#x4e59;&#x578b;&#x809d;&#x708e;" source="-55"  target="-53">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x7ea4;&#x7ef4;&#x5316; (2014) &#x4e59;&#x578b;&#x809d;&#x708e;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="2014" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x6027;&#x8111;&#x75c5; (1895) &#x809d;&#x786c;&#x5316;" source="-47"  target="-56">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x6027;&#x8111;&#x75c5; (1895) &#x809d;&#x786c;&#x5316;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="1895" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x80bf;&#x7624; (1634) &#x539f;&#x53d1;&#x6027;&#x809d;&#x764c;" source="-52"  target="-48">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x80bf;&#x7624; (1634) &#x539f;&#x53d1;&#x6027;&#x809d;&#x764c;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="1634" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x764c; (1478) &#x4e59;&#x578b;&#x809d;&#x708e;" source="-54"  target="-53">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x764c; (1478) &#x4e59;&#x578b;&#x809d;&#x708e;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="1478" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x786c;&#x5316; (1108) &#x7cd6;&#x5c3f;&#x75c5;" source="-56"  target="-46">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x786c;&#x5316; (1108) &#x7cd6;&#x5c3f;&#x75c5;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="1108" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x708e; (1088) &#x539f;&#x53d1;&#x6027;&#x809d;&#x764c;" source="-57"  target="-48">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x708e; (1088) &#x539f;&#x53d1;&#x6027;&#x809d;&#x764c;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="1088" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x786c;&#x5316; (1012) &#x813e;&#x529f;&#x80fd;&#x4ea2;&#x8fdb;" source="-56"  target="-45">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x786c;&#x5316; (1012) &#x813e;&#x529f;&#x80fd;&#x4ea2;&#x8fdb;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="1012" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x635f;&#x4f24; (821) &#x809d;&#x786c;&#x5316;" source="-44"  target="-56">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x635f;&#x4f24; (821) &#x809d;&#x786c;&#x5316;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="821" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x80bf;&#x7624; (802) &#x4e59;&#x578b;&#x809d;&#x708e;" source="-52"  target="-53">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x80bf;&#x7624; (802) &#x4e59;&#x578b;&#x809d;&#x708e;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="802" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x9ad8;&#x8840;&#x538b; (755) &#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;" source="-51"  target="-50">
+     <att type="string" name="canonicalName"  value="&#x9ad8;&#x8840;&#x538b; (755) &#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="755" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x9ad8;&#x8840;&#x538b; (630) &#x4e0a;&#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;" source="-51"  target="-49">
+     <att type="string" name="canonicalName"  value="&#x9ad8;&#x8840;&#x538b; (630) &#x4e0a;&#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="630" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+   <edge label="&#x809d;&#x6027;&#x8111;&#x75c5; (574) &#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;" source="-47"  target="-50">
+     <att type="string" name="canonicalName"  value="&#x809d;&#x6027;&#x8111;&#x75c5; (574) &#x6d88;&#x5316;&#x9053;&#x51fa;&#x8840;"/>
+     <att type="string" name="edge.color"value="153,153,153"/>
+     <att type="string" name="interaction" value="574" cy:editable="false"/>
+     <graphics  width="1"  fill="#999999" cy:sourceArrow="0" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000"   cy:edgeLabelFont="Default-0-10"  cy:edgeLabel=""  cy:edgeLineType="SOLID"  cy:curved="STRAIGHT_LINES"/>
+   </edge>
+ </graphics>

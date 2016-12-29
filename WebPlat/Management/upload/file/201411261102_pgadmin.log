@@ -1,0 +1,93 @@
+2014-05-24 17:46:57 ERROR  : 错误:  语法错误 在 "items" 或附近的
+LINE 1: drop items;
+             ^
+2014-05-24 17:47:19 ERROR  : 错误:  语法错误 在 "schemaname" 或附近的
+LINE 1: drop schemaname items;
+             ^
+2014-05-24 18:01:15 ERROR  : 错误:  语法错误 在 "schemaname" 或附近的
+LINE 1: drop schemaname items;
+             ^
+2014-05-24 18:01:25 ERROR  : 错误:  无法删除 模式 items 因为有其它对象倚赖它
+DETAIL:  表 items.funccats 倚赖于 模式 items
+表 items.genes 倚赖于 模式 items
+表 items.genes_proteins 倚赖于 模式 items
+表 items.meshterms 倚赖于 模式 items
+表 items.orthgroups 倚赖于 模式 items
+表 items.orthgroups_funccats 倚赖于 模式 items
+表 items.orthgroups_species 倚赖于 模式 items
+表 items.protein_image_match 倚赖于 模式 items
+表 items.proteins 倚赖于 模式 items
+表 items.proteins_meshterms 倚赖于 模式 items
+表 items.proteins_names 倚赖于 模式 items
+表 items.proteins_orthgroups 倚赖于 模式 items
+表 items.proteins_sequences 倚赖于 模式 items
+表 items.proteins_smartlinkouts 倚赖于 模式 items
+表 items.runs 倚赖于 模式 items
+表 items.runs_genes_proteins 倚赖于 模式 items
+表 items.runs_orthgroups 倚赖于 模式 items
+表 items.species 倚赖于 模式 items
+表 items.species_names 倚赖于 模式 items
+表 items.species_nodes 倚赖于 模式 items
+HINT:  使用 DROP .. CASCADE 把倚赖对象一并删除.
+2014-05-24 18:05:28 ERROR  : 错误:  无法删除 模式 items 因为有其它对象倚赖它
+DETAIL:  表 items.funccats 倚赖于 模式 items
+表 items.genes 倚赖于 模式 items
+表 items.genes_proteins 倚赖于 模式 items
+表 items.meshterms 倚赖于 模式 items
+表 items.orthgroups 倚赖于 模式 items
+表 items.orthgroups_funccats 倚赖于 模式 items
+表 items.orthgroups_species 倚赖于 模式 items
+表 items.protein_image_match 倚赖于 模式 items
+表 items.proteins 倚赖于 模式 items
+表 items.proteins_meshterms 倚赖于 模式 items
+表 items.proteins_names 倚赖于 模式 items
+表 items.proteins_orthgroups 倚赖于 模式 items
+表 items.proteins_sequences 倚赖于 模式 items
+表 items.proteins_smartlinkouts 倚赖于 模式 items
+表 items.runs 倚赖于 模式 items
+表 items.runs_genes_proteins 倚赖于 模式 items
+表 items.runs_orthgroups 倚赖于 模式 items
+表 items.species 倚赖于 模式 items
+表 items.species_names 倚赖于 模式 items
+表 items.species_nodes 倚赖于 模式 items
+HINT:  使用 DROP .. CASCADE 把倚赖对象一并删除.
+2014-05-24 18:11:12 ERROR  : 错误:  表 "orthgroups_species" 不存在
+2014-05-24 18:14:58 ERROR  : 错误:  模式 "items" 不存在
+2014-05-26 21:18:41 ERROR  : 错误:  关系 "species_nodes" 不存在
+LINE 1: select * from species_nodes;
+                      ^
+2014-05-28 08:09:03 ERROR  : 错误:  为了写入, 无法打开文件 "d:\string\evidence\actions_sets.txt": No such file or directory
+2014-05-28 19:20:15 ERROR  : 错误:  无法删除 模式 items 因为有其它对象倚赖它
+DETAIL:  表 items.funccats 倚赖于 模式 items
+表 items.genes 倚赖于 模式 items
+表 items.genes_proteins 倚赖于 模式 items
+表 items.meshterms 倚赖于 模式 items
+表 items.orthgroups 倚赖于 模式 items
+表 items.orthgroups_funccats 倚赖于 模式 items
+表 items.orthgroups_species 倚赖于 模式 items
+表 items.protein_image_match 倚赖于 模式 items
+表 items.proteins 倚赖于 模式 items
+表 items.proteins_meshterms 倚赖于 模式 items
+表 items.proteins_names 倚赖于 模式 items
+表 items.proteins_orthgroups 倚赖于 模式 items
+表 items.proteins_sequences 倚赖于 模式 items
+表 items.proteins_smartlinkouts 倚赖于 模式 items
+表 items.runs 倚赖于 模式 items
+表 items.runs_genes_proteins 倚赖于 模式 items
+表 items.runs_orthgroups 倚赖于 模式 items
+表 items.species 倚赖于 模式 items
+表 items.species_names 倚赖于 模式 items
+表 items.species_nodes 倚赖于 模式 items
+HINT:  使用 DROP .. CASCADE 把倚赖对象一并删除.
+2014-06-07 08:06:22 ERROR  : 错误:  语法错误 在 "select" 或附近的
+LINE 3: select count(*) from homology.blast_data
+        ^
+2014-06-07 08:08:21 ERROR  : 错误:  表 "best_hit_per_species" 不存在
+2014-06-07 08:08:37 ERROR  : 错误:  表 "best_hit_per_species" 不存在
+2014-06-07 08:09:11 ERROR  : 错误:  表 "blast_data" 不存在
+2014-06-07 08:09:34 ERROR  : 错误:  无法删除 模式 homology 因为有其它对象倚赖它
+DETAIL:  表 homology.best_hit_per_species 倚赖于 模式 homology
+表 homology.blast_data 倚赖于 模式 homology
+HINT:  使用 DROP .. CASCADE 把倚赖对象一并删除.
+2014-06-12 16:37:41 ERROR  : 错误:  由于用户请求而正在取消查询
+2014-06-13 15:21:02 ERROR  : 错误:  由于用户请求而正在取消查询

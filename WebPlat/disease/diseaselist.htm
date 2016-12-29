@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>疾病</title>
+    <link rel="stylesheet" href="../stylesheets/style.css"/>
+    <link rel="stylesheet" href="../stylesheets/homepage.css"/>
+    <link rel="stylesheet" href="../stylesheets/skins/teal.css"/>
+    <link rel="stylesheet" href="../stylesheets/responsive.css"/>
+    <script  type="text/javascript" src="../Cytoscapejs/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" >
+        $(function () {
+            $.post("ajax/getRootDisease.ashx",
+                 function (data) {
+                     var categorys = $.parseJSON(data);
+                     for (var i = 0; i < categorys.length; i++) {
+                         var disease = categorys[i];
+                         $("<option  value=" + disease.Name_Cn + ">" + disease.Name_Cn + "</option>").appendTo("#diseaseCategory");
+                     }
+                 });
+            $("#diseaseCategory").change(function () {
+                $("#secondDisease").empty();
+                $("#thirdDisease").empty();
+                $("#fourDisease").empty();
+                $.post("ajax/getDiseaseByCategory.ashx", { "Category": $("#diseaseCategory  option:selected").text() },
+                                            function (data) {
+                                                var diseases = $.parseJSON(data);
+                                                for (var i = 0; i < diseases.length; i++) {
+                                                    var dis = diseases[i];
+                                                    $("<option  value=" + dis.id + ">" + dis.has_Name_Cn + "</option>").appendTo("#secondDisease");
+                                                }
+                                            });
+            });
+               $("#secondDisease").change(function () {
+                   $("#thirdDisease").empty();
+                   $("#fourDisease").empty();
+                $.post("ajax/getDiseaseByCategory.ashx", { "Category": $("#secondDisease  option:selected").text() },
+                                            function (data) {
+                                                var diseases = $.parseJSON(data);
+                                                for (var i = 0; i < diseases.length; i++) {
+                                                    var dis = diseases[i];
+                                                    $("<option  value=" + dis.id + ">" + dis.has_Name_Cn + "</option>").appendTo("#thirdDisease");
+                                                }
+                                            });
+            });
+            $("#thirdDisease").change(function () {
+                $("#fourDisease").empty();
+                $.post("ajax/getDiseaseByCategory.ashx", { "Category": $("#thirdDisease  option:selected").text() },
+                                            function (data) {
+                                                var diseases = $.parseJSON(data);
+                                                for (var i = 0; i < diseases.length; i++) {
+                                                    var dis = diseases[i];
+                                                    $("<option  value=" + dis.id + ">" + dis.has_Name_Cn + "</option>").appendTo("#fourDisease");
+                                                }
+                                      });
+            });
+        });
+    </script>
+</head>
+<body>
+ <form action="/disease/getCytoscapeWeb.aspx"  method="post" target="right">
+    <div  class="row">
+      <div class="twelve columns">
+        <select  id="diseaseCategory" name="root" class="button dropdown  tiny">
+             <option>请选择疾病--</option>
+        </select>&nbsp;&nbsp;
+        <select id="secondDisease" name="second" class="button dropdown  tiny">
+        </select>&nbsp;&nbsp;
+        <select id="thirdDisease" name="third" class="button dropdown  tiny">
+        </select>&nbsp;&nbsp;
+        <select id="fourDisease" name="four" class="button dropdown  tiny">
+        </select>&nbsp;&nbsp;
+        <select  name="LeiXing" class="button dropdown tiny">
+          <option>请选择药物类型</option>
+          <option  value="_CY_lt_ps_S">中成药</option>
+          <option  value="_WM_lt_ps_S">西药</option>
+          <option value="_TY_lt_ps_S">汤药</option>
+          <option value="_ZhengHou_lt_ps_S">证候</option>
+          <option value="_ZhiFa_lt_ps_S">治法</option>
+          <option value="_ZJ_lt_ps_S">针灸</option>
+          <option value="_ZY_lt_ps_S">中药</option>
+          <option value="_ZhongYiZhengHou_lt_ps_S">中医证候</option>
+          <option value="_ZZ_lt_ps_S">症状</option>
+          <option value="_CY_WM_lt_ps_S">西药--中成药</option>
+          <option value="_JB_lt_ps_S">疾病</option>
+          <option value="_SLYS_lt_ps_S">食疗药膳</option>
+          <option value="_YC_lt_ps_S">药茶</option>
+          <option value="_AJ_lt_ps_S">艾灸</option>
+          <option value="_BG_lt_ps_S">拔罐</option>
+          <option value="_EXYD_lt_ps_S">耳穴压豆</option>
+          <option value="_TNAM_lt_ps_S">推拿按摩</option>
+          <option value="_XWTF_lt_ps_S">穴位贴敷</option>
+          <option value="_YS_lt_ps_S">养生</option>
+          <option value="_ZC_lt_ps_S">针刺</option>
+          <option value="_ZYWF_lt_ps_S">中药外敷</option>
+          <option value="_ZYLL_lt_ps_S">中医理疗</option>
+          <option value="_ZYSYJS_lt_ps_S">中医适宜技术</option>
+      </select>&nbsp;&nbsp;
+       <input type="submit" id="submit" class="readmore"  value="查询"/>
+     </div>
+    </div>
+</form>
+</body>
+</html>
