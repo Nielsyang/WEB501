@@ -240,6 +240,7 @@
 
         temp_node.id = nodes_array[0].split("~")[0];
         temp_node.r = "40";
+        temp_node.img = temp_node.id + ".jpg"
 
         var nodes = [],
             links = [];
@@ -269,6 +270,7 @@
                 var temp_node_ = new Object();
                 temp_node_.id = nodes_array[i].split("~")[0];
                 temp_node_.r = "25";
+                temp_node_.img = temp_node_.id + ".jpg"
                 nodes.push(temp_node_);
                 temp_node_ = null;
             }
@@ -295,6 +297,7 @@
                 var temp_node_ = new Object();
                 temp_node_.id = nodes_array[i].split("~")[0];
                 temp_node_.r = "24";
+                temp_node_.img = temp_node_.id + ".jpg"
                 nodes.push(temp_node_);
                 temp_node_ = null;
             }
@@ -318,6 +321,7 @@
                 var temp_node_ = new Object();
                 temp_node_.id = nodes_array[i].split("~")[0];
                 temp_node_.r = "16";
+                temp_node_.img = temp_node_.id + ".jpg"
                 nodes.push(temp_node_);
                 //alert(nodes.length)
                 temp_node_ = null;
@@ -351,7 +355,23 @@
             nodeq = node.data(nodes, function (d) { return d.id; });
             nodeq.exit().remove();
             node_enter_g = nodeq.enter().append("g").attr("class", "mynode").merge(nodeq);
-            circles = node_enter_g.append("circle").attr("fill", function (d) { return d.r == 40 ? "aquamarine" : (d.r == 25 ? "khaki" : (d.r == 24 ? "pink" : "violet")); }).attr("r", function (d) { return d.r; });
+            circles = node_enter_g.append("circle").attr("fill", function (d) { 
+                                    var defs = svg.append("defs").attr("id", "imgdefs")
+                                    var img_h = 80
+                                    var img_w = 80
+                                    var catpattern = defs.append("pattern")
+                                                            .attr("id", "catpattern" + i)
+                                                            .attr("height", 1)
+                                                            .attr("width", 1)
+
+                                    catpattern.append("image")
+                                            .attr("x", - (img_w / 2 - d.r))
+                                            .attr("y", - (img_h / 2 - d.r))
+                                            .attr("width", img_w)
+                                            .attr("height", img_h)
+                                            .attr("xlink:href", d.img)
+
+                                    return "url(#catpattern" + i + ")";}).attr("r", function (d) { return d.r; });
             nodet = node_enter_g.append("text").attr("font-size", function (d) { return d.r / 2 > 10 ? (d.r / 2 + "px") : "10px"; }).attr("dy", ".35em").style("text-anchor", "middle").text(function (d) { return d.id; });
 
             // Apply the general update pattern to the links.
