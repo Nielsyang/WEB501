@@ -186,6 +186,14 @@
                 <asp:ListItem>0.00001</asp:ListItem>
             </asp:DropDownList>
             </td>
+            <td style="text-align:center;">
+            <asp:Label ID="Label3" runat="server" Text="Node Shape"></asp:Label>
+            <asp:DropDownList ID="node_shape" runat="server" Width="100px">
+                <asp:ListItem>circle</asp:ListItem>
+                <asp:ListItem>rectangle</asp:ListItem>
+                <asp:ListItem>oval</asp:ListItem>
+            </asp:DropDownList>
+            </td>
         </tr>
         <tr style="text-align:center;">
             <td colspan="6">
@@ -229,7 +237,11 @@
             links_array = links_str.split(";"),
             index = 0;
 
-
+        var d = document.getElementById("node_shape");
+        var shapeValue = d.options[d.selectedIndex].value;
+        if (shapeValue == "rectangle")
+            shapeValue = "rect";
+         
         for (i in nodes_array) {
             nodes_to_inds[nodes_array[i].split("~")[0].toLowerCase()] = index
             index++
@@ -240,7 +252,7 @@
 
         temp_node.id = nodes_array[0].split("~")[0];
         temp_node.r = "40";
-        temp_node.img = temp_node.id + ".jpg"
+        temp_node.img = "NodeImg/" + temp_node.id + ".jpg"
 
         var nodes = [],
             links = [];
@@ -270,7 +282,7 @@
                 var temp_node_ = new Object();
                 temp_node_.id = nodes_array[i].split("~")[0];
                 temp_node_.r = "25";
-                temp_node_.img = temp_node_.id + ".jpg"
+                temp_node_.img = "NodeImg/" + temp_node_.id + ".jpg"
                 nodes.push(temp_node_);
                 temp_node_ = null;
             }
@@ -297,7 +309,7 @@
                 var temp_node_ = new Object();
                 temp_node_.id = nodes_array[i].split("~")[0];
                 temp_node_.r = "24";
-                temp_node_.img = temp_node_.id + ".jpg"
+                temp_node_.img = "NodeImg/" + temp_node_.id + ".jpg"
                 nodes.push(temp_node_);
                 temp_node_ = null;
             }
@@ -321,7 +333,7 @@
                 var temp_node_ = new Object();
                 temp_node_.id = nodes_array[i].split("~")[0];
                 temp_node_.r = "16";
-                temp_node_.img = temp_node_.id + ".jpg"
+                temp_node_.img = "NodeImg/" + temp_node_.id + ".jpg"
                 nodes.push(temp_node_);
                 //alert(nodes.length)
                 temp_node_ = null;
@@ -355,23 +367,32 @@
             nodeq = node.data(nodes, function (d) { return d.id; });
             nodeq.exit().remove();
             node_enter_g = nodeq.enter().append("g").attr("class", "mynode").merge(nodeq);
-            circles = node_enter_g.append("circle").attr("fill", function (d, i) { 
-                                    var defs = svg.append("defs").attr("id", "imgdefs")
-                                    var img_h = 80
-                                    var img_w = 80
-                                    var catpattern = defs.append("pattern")
-                                                            .attr("id", "catpattern" + i)
-                                                            .attr("height", 1)
-                                                            .attr("width", 1)
+            node_shape = node_enter_g.append(shapeValue).attr("fill", function (d, i) {
+                if (d.r != 40)
+                    return "aquamarine";
+                else {
+                    var defs = svg.append("defs").attr("id", "imgdefs")
+                    var img_h = 80
+                    var img_w = 80
+                    var catpattern = defs.append("pattern").attr("id", "catpattern" + i)
+                                                       .attr("height", 1)
+                                                       .attr("width", 1)
 
-                                    catpattern.append("image")
-                                            .attr("x", - (img_w / 2 - d.r))
-                                            .attr("y", - (img_h / 2 - d.r))
-                                            .attr("width", img_w)
-                                            .attr("height", img_h)
-                                            .attr("xlink:href", d.img)
+                    catpattern.append("image").attr("x", -(img_w / 2 - d.r))
+                                          .attr("y", -(img_h / 2 - d.r))
+                                          .attr("width", img_w)
+                                          .attr("height", img_h)
+                                          .attr("xlink:href", d.img)
 
-                                    return "url(#catpattern" + i + ")";}).attr("r", function (d) { return d.r; });
+                    return "url(#catpattern" + i + ")";
+                }
+            }); //.attr("r", function (d) { return d.r; });
+            if (shapeValue == "circle") {
+                node_shape = node_shape.attr("r", function (d) { return d.r; });
+            }
+            else if (shapeValue == "rect") {
+                node_shape = node_shape.attr("width", function (d) { return d.r; }).attr("height", function (d) { return d.r; });
+            }
             nodet = node_enter_g.append("text").attr("font-size", function (d) { return d.r / 2 > 10 ? (d.r / 2 + "px") : "10px"; }).attr("dy", ".35em").style("text-anchor", "middle").text(function (d) { return d.id; });
 
             // Apply the general update pattern to the links.
