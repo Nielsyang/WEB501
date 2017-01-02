@@ -116,7 +116,7 @@
             </td>
             <td>
                 <asp:TextBox class="DTextbox" runat="server" ID="Dbox" OnTextChanged="Dbox_onchanged" AutoPostBack="true"/>
-                <asp:Label ID="DiseaseCnEn" runat="server" Text="sdgdgsgsgsgsgs"></asp:Label>
+                <asp:Label ID="DiseaseCnEn" runat="server" Text=""></asp:Label>
             </td>
 
         </tr>
@@ -355,7 +355,7 @@
             nodeq = node.data(nodes, function (d) { return d.id; });
             nodeq.exit().remove();
             node_enter_g = nodeq.enter().append("g").attr("class", "mynode").merge(nodeq);
-            circles = node_enter_g.append("circle").attr("fill", function (d) { 
+            circles = node_enter_g.append("circle").attr("fill", function (d, i) { 
                                     var defs = svg.append("defs").attr("id", "imgdefs")
                                     var img_h = 80
                                     var img_w = 80
